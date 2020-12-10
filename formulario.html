@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html - lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script type="text/javascript" src="main.js"></script>
+        <title> Rota Exata </title>
+    </head>
+
+    <body>
+        <header id="cabecalho">
+            <h1 id="titulo"> FORMULÁRIO</h1>
+            <h3 id="subTitulo"> Por favor, preencha os campos abaixo: </h3>
+        </header>
+
+        <ol class="coluna1">
+            <fieldset>
+                 Nome: <br> <input type="text" placeholder="Digite seu nome">
+                 <br>
+                 Senha: <br> <input type="text" placeholder="Digite sua senha">
+                 <br>
+                 Você reside em: <select>
+                    <option> Joinville </option>
+                    <option> Jaraguá </option>
+                    <option> Araquari </option>
+                    <option> Itajaí </option>
+                    <option> Blumenau </option>
+                    </select> <br>
+            </fieldset>
+            <fieldset>
+                <legend> Marque suas atividades nas horas livres: </legend>
+                <input type="checkbox" name="hobby" id="hobby1" value="Leitura"><label for="Leitura">Leitura</label><br>
+                <input type="checkbox" name="hobby" id="hobby2" value="Música"><label for="Música">Música</label><br>
+                <input type="checkbox" name="hobby" id="hobby3" value="Filmes"><label for="Filmes">Filmes</label><br>
+                <input type="checkbox" name="hobby" id="hobby4" value="Caminhada"><label for="Caminhada">Caminhada</label><br>
+            </fieldset>
+        </ol>
+        <ol class="coluna2">   
+            <fieldset>
+                <p> Informe sua faixa etária </p>
+                <input type="radio" name="idade" id="faixa1" value="10-20"><label for="10-20">Entre 10 e 20 anos</label><br>
+                <input type="radio" name="idade" id="faixa2" value="20-30"><label for="20-30">Entre 20 e 30 anos</label><br>
+                <input type="radio" name="idade" id="faixa3" value="30-40"><label for="30-40">Entre 30 e 40 anos</label><br>
+                <input type="radio" name="idade" id="faixa4" value="50-mais"><label for="50-mais">50 anos ou mais</label><br>
+            </fieldset>
+            <div>
+                <legend> Deixe-nos um comentário: </legend>
+                <textarea name="areaDeTexto" cols="50" rows="4"></textarea>                
+            </div>
+        </ol>
+        <footer id="rodape">
+            <br> <input type="submit" value="Enviar" class="enviar"><input type="submit" value="Limpar campos" class="limpar">
+            <br> <h6 class="desenvolvido"> Desenvolvido por André Ribas Böhler </h6> 
+        </footer>
+        
+    </body>
+</html>
